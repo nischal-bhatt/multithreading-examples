@@ -37,7 +37,7 @@ public class ParallelSum {
 		{
 			total += worker.getPartialSum();
 		}
-		
+		System.out.println("returning");
 		return total;
 	}
 	
