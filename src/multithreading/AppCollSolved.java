@@ -6,6 +6,10 @@ import java.util.List;
 
 public class AppCollSolved {
 
+	//add() and remove() are synchronized
+	// intrinsic lock - not that efficient because threads
+	// have to wait for each other even when they want to 
+	// execute independent methods (operations)
 	public static void main(String[] args) {
 
 		List<Integer> nums = Collections.synchronizedList( new ArrayList<>());
