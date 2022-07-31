@@ -51,6 +51,8 @@ public class AtomicIntegerExample {
 			// AtomicIntegers under the hood
 			// it uses low level synchronization to
 			// avoid inconsistent states
+			// if u change AtomicInteger to normal int
+			// see what problem happens
 		}
 	}
 }
