@@ -9,7 +9,8 @@ public class MergeSortMain {
 		int[] nums = {8,8,2,4,7};
 		
 		
-		MergeSort sort = new MergeSort(nums);
+		//MergeSort sort = new MergeSort(nums);
+		 ParallelMergeSort sort = new ParallelMergeSort(nums);
 		sort.sort();
 		sort.showArray();
 	}
